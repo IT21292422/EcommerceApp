@@ -4,16 +4,15 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.example.ecommerce.databinding.ActivityRegistrationCompleteBinding
+import com.example.ecommerce.databinding.ActivityUnactivatedAccountBinding
 
-class RegistrationCompleteActivity : AppCompatActivity() {
-
-    private lateinit var binding: ActivityRegistrationCompleteBinding
+class UnactivatedAccountActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityUnactivatedAccountBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityRegistrationCompleteBinding.inflate(layoutInflater)
+        binding = ActivityUnactivatedAccountBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.switchToLoginButton.setOnClickListener(View.OnClickListener {
