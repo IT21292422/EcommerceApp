@@ -1,5 +1,6 @@
 package com.example.ecommerce.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.provider.ContactsContract.CommonDataKinds.Email
 import android.view.View
@@ -27,7 +28,10 @@ class LoginActivity : AppCompatActivity() {
         })
 
         binding.switchToRegisterButton.setOnClickListener(View.OnClickListener {
-            // TODO: implement switch to register screen logic
+            val intent = Intent(this, RegisterActivity::class.java)
+            // switch to register and clear stack
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
         })
     }
 }

@@ -1,5 +1,6 @@
 package com.example.ecommerce.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -32,7 +33,10 @@ class RegisterActivity : AppCompatActivity() {
         })
 
         binding.switchToLoginButton.setOnClickListener(View.OnClickListener {
-            // TODO: implement switch to login screen logic
+            val intent = Intent(this, LoginActivity::class.java)
+            // switch to login and clear stack
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
         })
     }
 }
