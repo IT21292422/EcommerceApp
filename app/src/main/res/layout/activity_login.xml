@@ -33,16 +33,17 @@
                 android:textSize="36sp"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textColor="@color/purple"/>
+                android:textColor="@color/lavender"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/username"
+                android:id="@+id/email"
                 android:background="@drawable/c_container"
                 android:layout_marginTop="40dp"
                 android:padding="8dp"
                 android:paddingStart="20dp"
-                android:hint="Username"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
                 android:textColor="@color/black"/>
             <EditText
                 android:layout_width="match_parent"
@@ -63,7 +64,7 @@
                 android:id="@+id/loginButton"
                 android:textSize="18sp"
                 android:layout_marginTop="30dp"
-                android:backgroundTint="@color/purple"
+                android:backgroundTint="@color/lavender"
                 app:cornerRadius = "20dp"/>
 
             <TextView
@@ -74,7 +75,7 @@
                 android:id="@+id/switchToRegisterButton"
                 android:textSize="16sp"
                 android:layout_marginTop="10dp"
-                android:textColor="@color/purple"/>
+                android:textColor="@color/lavender"/>
 
         </LinearLayout>
 

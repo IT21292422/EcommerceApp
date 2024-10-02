@@ -1,6 +1,7 @@
 package com.example.ecommerce.activity
 
 import android.os.Bundle
+import android.provider.ContactsContract.CommonDataKinds.Email
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -11,7 +12,7 @@ import com.example.ecommerce.databinding.ActivityLoginBinding
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityLoginBinding
-    lateinit var username : EditText
+    lateinit var email: EditText
     lateinit var password: EditText
     lateinit var loginButton: Button
 
