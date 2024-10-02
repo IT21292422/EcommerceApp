@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Ecommerce</string>
     <string name="title_introduction">Step into your style A world of shoes</string>
+
+    <string name="registration_complete_msg">Account registration was a success.\n
+        Your account is now pending activation.\nPlease wait until one of our customer
+        service representatives activate your account and then you can login.
+    </string>
 </resources>
