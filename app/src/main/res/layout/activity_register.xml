@@ -7,9 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/loginbkg"
-    tools:context=".activity.LoginActivity">
+    tools:context=".activity.RegisterActivity">
 
-<!-- Layout reference from  https://youtu.be/XMI1iejmtzs  -->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,7 +27,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:text="Register"
                 android:id="@+id/loginText"
                 android:textSize="36sp"
                 android:textAlignment="center"
@@ -57,11 +56,23 @@
                 android:hint="Password"
                 android:textColor="@color/black"
                 android:drawablePadding="8dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/rePassword"
+                android:background="@drawable/c_container"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:paddingStart="20dp"
+                android:hint="Re Enter Password"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="Login"
-                android:id="@+id/loginButton"
+                android:text="Register"
+                android:id="@+id/registerButton"
                 android:textSize="18sp"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/lavender"
@@ -71,8 +82,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Register"
-                android:id="@+id/switchToRegisterButton"
+                android:text="Login"
+                android:id="@+id/switchToLoginButton"
                 android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/lavender"/>
