@@ -33,41 +33,71 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textColor="@color/lavender"/>
+
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
                 android:id="@+id/email"
-                android:background="@drawable/c_container"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
                 android:layout_marginTop="40dp"
-                android:padding="8dp"
-                android:paddingStart="20dp"
-                android:inputType="textEmailAddress"
+                android:background="@drawable/c_container"
                 android:hint="Email"
-                android:textColor="@color/black"/>
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
             <EditText
+                android:id="@+id/fName"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/c_container"
+                android:hint="First name"
+                android:padding="8dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/lName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/c_container"
+                android:hint="Last name"
+                android:padding="8dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
                 android:id="@+id/password"
-                android:background="@drawable/c_container"
-                android:layout_marginTop="20dp"
-                android:inputType="textPassword"
-                android:padding="8dp"
-                android:paddingStart="20dp"
-                android:hint="Password"
-                android:textColor="@color/black"
-                android:drawablePadding="8dp"/>
-            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/rePassword"
-                android:background="@drawable/c_container"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/c_container"
+                android:drawablePadding="8dp"
+                android:hint="Password"
                 android:inputType="textPassword"
                 android:padding="8dp"
                 android:paddingStart="20dp"
-                android:hint="Re Enter Password"
                 android:textColor="@color/black"
-                android:drawablePadding="8dp"/>
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/rePassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/c_container"
+                android:drawablePadding="8dp"
+                android:hint="Re Enter Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
