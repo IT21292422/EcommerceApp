@@ -45,6 +45,15 @@
                 android:text="ID: whgiewuhrgjh" />
 
             <TextView
+                android:id="@+id/tvSeller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:text="Seller: Sam"
+                android:textColor="@color/lavender"/>
+
+            <TextView
                 android:id="@+id/tvOrderStatus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
